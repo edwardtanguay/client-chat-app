@@ -52,6 +52,7 @@ function Signup() {
   return (
     <div className="signup">
 			<div>test1: [{process.env.REACT_APP_BACKEND_URL}] </div>
+			<div>test2: [{process.env.REACT_APP_TEST}] </div>
       <form action="" onSubmit={handleSubmit}>
         <input
           name="username"
